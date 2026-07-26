@@ -300,12 +300,11 @@ Automation alone may not fully resolve every situation. Human verification can b
 
 ---
 
-## Reports and Files
+## Reports and Public Resources
 
-- [HTML Evaluation Report](reports/report.html?raw=1)
-- [Technical Evaluation Report — PDF](reports/technical_report.pdf?raw=1)
-- [Public V58 Demo Video](demo/Origin%20Data%20Lab%20Face%20Anonymization%20Demo%20(V58).mp4?raw=1)
-
+- [HTML Evaluation Report](reports/v58_public_evaluation.html)
+- [Technical Evaluation Report (PDF)](reports/v58_technical_report.pdf)
+- [▶ Watch the Public V58 Demo on YouTube](https://youtu.be/n0HrsoZwtR0)
 <details>
 <summary><strong>Repository structure</strong></summary>
 
