@@ -18,9 +18,9 @@
 <p align="center">
   <a href="https://origindatalab.io"><strong>Visit Website</strong></a>
   ·
-  <a href="demo/Origin%20Data%20Lab%20Face%20Anonymization%20Demo%20(V58).mp4?raw=1"><strong>Watch Demo</strong></a>
+  <a href="https://youtu.be/n0HrsoZwtR0"><strong>Watch Demo</strong></a>
   ·
-  <a href="reports/technical_report.pdf?raw=1"><strong>View Technical Report</strong></a>
+  <a href="reports/v58_technical_report.pdf"><strong>View Technical Report</strong></a>
 </p>
 
 > **Send us a private 1–5 minute sample. We will review the footage, processing requirements, Human GT or verification scope, expected deliverables, and pilot feasibility before any larger commitment.**
@@ -97,13 +97,13 @@ Typical project requirements include:
 ## Demo Video
 
 <p align="center">
-  <a href="demo/Origin%20Data%20Lab%20Face%20Anonymization%20Demo%20(V58).mp4?raw=1">
+ <a href="https://youtu.be/n0HrsoZwtR0">
     <img src="assets/thumbnails/demo-thumbnail.jpg" alt="Watch Origin Data Lab V58 face anonymization demo" width="85%">
   </a>
 </p>
 
 <p align="center">
-  <a href="demo/Origin%20Data%20Lab%20Face%20Anonymization%20Demo%20(V58).mp4?raw=1"><strong>▶ Watch the public V58 demonstration</strong></a>
+ <a href="https://youtu.be/n0HrsoZwtR0"><strong>▶ Watch the Public V58 Demonstration</strong></a>
 </p>
 > **GitHub may download the MP4 instead of playing it in the browser. A browser-viewable demonstration will be linked here after the Origin Data Lab demo page is published.**
 
