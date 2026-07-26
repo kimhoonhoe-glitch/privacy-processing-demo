@@ -23,7 +23,10 @@
   <a href="reports/v58_technical_report.pdf"><strong>View Technical Report</strong></a>
 </p>
 
-> **Send us a private 1–5 minute sample. We will review the footage, processing requirements, Human GT or verification scope, expected deliverables, and pilot feasibility before any larger commitment.**
+> ### Evaluate Our Workflow on Your Own Data
+> Send a private 1–5 minute representative sample. We will first review technical feasibility, processing requirements, Human GT or verification scope, security conditions, expected deliverables, schedule, and pilot terms before any larger commitment.
+>
+> **[Request a Private Sample Evaluation](mailto:contact@origindatalab.io?subject=Private%20Sample%20Evaluation%20Request)** · **[Visit Origin Data Lab](https://origindatalab.io)**
 ---
 
 ## Overview
@@ -105,8 +108,6 @@ Typical project requirements include:
 <p align="center">
  <a href="https://youtu.be/n0HrsoZwtR0"><strong>▶ Watch the Public V58 Demonstration</strong></a>
 </p>
-> **GitHub may download the MP4 instead of playing it in the browser. A browser-viewable demonstration will be linked here after the Origin Data Lab demo page is published.**
-
 The demo includes:
 
 - original footage
@@ -357,8 +358,9 @@ Production scaling is discussed only after the customer has reviewed the pilot o
 
 ## Discuss a Private Pilot
 
-**Website:** [https://origindatalab.io](https://origindatalab.io)
+**Email:** [contact@origindatalab.io](mailto:contact@origindatalab.io?subject=Private%20Pilot%20Inquiry)
 
+**Website:** [https://origindatalab.io](https://origindatalab.io)
 To request a private sample evaluation, please include:
 
 - organization and project type
