@@ -26,7 +26,7 @@
 > ### Evaluate Our Workflow on Your Own Data
 > Send a private 1–5 minute representative sample. We will first review technical feasibility, processing requirements, Human GT or verification scope, security conditions, expected deliverables, schedule, and pilot terms before any larger commitment.
 >
-> **[Request a Private Sample Evaluation](mailto:contact@origindatalab.io?subject=Private%20Sample%20Evaluation%20Request)** · **[Visit Origin Data Lab](https://origindatalab.io)**
+> **[Request a Private Sample Evaluation](https://origindatalab.io/contact)** · **[Visit Origin Data Lab](https://origindatalab.io)**
 ---
 
 ## Overview
