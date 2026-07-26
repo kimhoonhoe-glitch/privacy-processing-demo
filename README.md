@@ -5,7 +5,7 @@
 <h1 align="center">Privacy Processing & Human Verification</h1>
 
 <p align="center">
-  AI-assisted face anonymization for real-world video, supported by human verification and customer-specific quality rules.
+  AI-assisted video anonymization, Human GT, and quality verification for real-world datasets, supported by customer-specific processing and review rules.
 </p>
 
 <p align="center">
@@ -23,24 +23,45 @@
   <a href="reports/technical_report.pdf?raw=1"><strong>View Technical Report</strong></a>
 </p>
 
-> **Start with a private 1–5 minute sample evaluation before scaling to production.**
-
+> **Send us a private 1–5 minute sample. We will review the footage, processing requirements, Human GT or verification scope, expected deliverables, and pilot feasibility before any larger commitment.**
 ---
 
 ## Overview
 
-Origin Data Lab provides practical privacy-processing support for video datasets that contain identifiable faces.
-
+Origin Data Lab helps AI teams, dataset companies, mobility platforms, and CCTV solution providers prepare privacy-safe, quality-controlled video data for model development, evaluation, and commercial delivery.
 Our workflow combines:
 
 - automated face detection and anonymization
-- human verification for missed or uncertain cases
-- customer-specific masking and acceptance rules
-- delivery in video, image, and structured annotation formats
+- human verification for missed, uncertain, or high-risk cases
+- Human GT, annotation correction, and dataset QA
+- customer-specific masking, review, and acceptance rules
+- delivery in video, image, YOLO, COCO, JSON, JSONL, or CSV formats
 
 This repository presents a public V58 evaluation using dense, low-light urban traffic footage.
 
-> **This public evaluation shows automated processing output. Commercial delivery can include the agreed level of human verification depending on project requirements.**
+> **This public V58 evaluation shows automated face-anonymization output and is not a claim of perfect production coverage. Commercial projects can include an agreed Human GT or verification layer based on the customer's quality target, risk level, and acceptance criteria.**
+
+---
+
+## Who We Support
+
+Our services are designed for teams that need privacy-safe, quality-controlled video data, including:
+
+- ADAS and autonomous-driving teams
+- AI dataset and annotation companies
+- CCTV and smart-city solution providers
+- robotics and mobility companies
+- computer-vision research teams
+- organizations preparing video data for model training, evaluation, or external delivery
+
+Typical project requirements include:
+
+- face and license-plate anonymization
+- Human GT and missed-detection recovery
+- customer-specific annotation or masking rules
+- video and frame-level quality verification
+- structured metadata and format conversion
+- difficult footage involving low light, motion blur, occlusion, or dense scenes
 
 ---
 
@@ -84,6 +105,7 @@ This repository presents a public V58 evaluation using dense, low-light urban tr
 <p align="center">
   <a href="demo/Origin%20Data%20Lab%20Face%20Anonymization%20Demo%20(V58).mp4?raw=1"><strong>▶ Watch the public V58 demonstration</strong></a>
 </p>
+> **GitHub may download the MP4 instead of playing it in the browser. A browser-viewable demonstration will be linked here after the Origin Data Lab demo page is published.**
 
 The demo includes:
 
@@ -123,86 +145,104 @@ These values describe this specific public evaluation and should not be interpre
 
 ---
 
-## Why Origin Data Lab
+## Why Companies Start with Origin Data Lab
 
-### AI + Human Verification
+### Evaluate Quality on Your Own Data
 
-Automation handles the majority of routine detections. Human verification can then focus on low-confidence frames, missed faces, occlusion, motion blur, small targets, and other difficult cases.
+We do not assume that one public benchmark represents every camera, country, lighting condition, or operational environment. A private sample evaluation allows customers to assess the result using their own footage before considering a larger project.
 
-### Pilot-Friendly and Direct
+### AI Processing with Defined Human Verification
 
-Small projects are welcome. Customers can begin with a short private sample and communicate directly with the people responsible for processing and quality review.
+Automation handles routine detections where conditions allow. Human verification can focus on missed faces, low-confidence regions, temporal inconsistencies, motion blur, occlusion, small targets, and other difficult cases according to the agreed project scope.
 
-### Customer-Specific Rules
+### Customer-Specific Delivery Rules
 
-Masking strength, review scope, output format, acceptance criteria, and delivery requirements can be adjusted for each project.
+Each project can define its own:
 
----
+- target objects
+- masking strength and rendering method
+- Human GT or human-review scope
+- acceptance criteria
+- output formats
+- metadata requirements
+- security and deletion conditions
 
-## Workflow
+### Direct Pilot Communication
 
-```text
-Customer Sample
-      │
-      ▼
-Requirement and Privacy Rule Review
-      │
-      ▼
-Automated Detection and Anonymization
-      │
-      ▼
-Human Verification, if included
-      │
-      ▼
-Quality Review
-      │
-      ▼
-Final Delivery and Report
-```
-
-Our approach is designed to automate roughly 80–90% of routine processing where conditions allow, while assigning the remaining difficult cases to human verification. The actual automation ratio depends on footage quality, scene complexity, target size, occlusion, and customer acceptance criteria.
+Customers communicate directly with the team responsible for processing and quality review. This reduces handoff delays and allows requirements to be clarified before production scaling.
 
 ---
 
-## Human Verification
+## Human Verification and Human GT
 
-Human verification is managed by our quality engineering team.
+Human verification is applied according to the customer's quality target, security requirements, and agreed review scope.
 
-Review scope can include:
+Review tasks can include:
 
-- missed-face recovery
+- missed-face or missed-object recovery
 - low-confidence frame inspection
-- blur coverage checks
+- blur and masking coverage checks
 - temporal consistency checks
-- bounding-box correction
+- bounding-box creation or correction
+- annotation creation or correction
 - customer-specific exception handling
-- final delivery review
+- final delivery QA
 
-Additional review capacity can be organized according to project size, schedule, security requirements, and quality targets.
+Human-reviewed outputs can be separated from automated outputs and delivered with status information such as:
+
+- automated
+- human-reviewed
+- human-corrected
+- exception or unresolved case
+
+Review capacity, access permissions, QA sampling, and delivery schedules are agreed according to project volume and security requirements.
 
 ---
 
-## Pilot Process
+## Request a Private Sample Evaluation
 
-### 1. Share a Small Private Sample
+A short private sample allows both sides to confirm technical feasibility, expected quality, security requirements, and delivery scope before a larger commitment.
 
-A 1–5 minute sample is usually enough for an initial quality check.
+### 1. Share a 1–5 Minute Sample
 
-### 2. Define the Rules
+Provide a representative sample together with:
 
-We confirm the target objects, masking method, output format, human-review scope, and acceptance criteria.
+- target objects to anonymize, annotate, or verify
+- approximate total project volume
+- required output format
+- desired schedule
+- Human GT or verification requirements
+- security, retention, or deletion requirements
 
-### 3. Process the Sample
+### 2. Receive a Scope Review
 
-The sample is processed through the automated pipeline and, where agreed, additional human verification.
+We review the footage conditions, target difficulty, processing requirements, and expected QA scope.
 
-### 4. Review the Output
+Before processing begins, we confirm:
 
-The customer receives the processed sample and can request practical adjustments.
+- pilot deliverables
+- processing and verification scope
+- expected turnaround
+- security and transfer method
+- pricing or commercial conditions, where applicable
+
+### 3. Process and Review the Sample
+
+The sample is processed using the agreed automated workflow and, where included, Human GT, human verification, and quality review.
+
+### 4. Receive the Pilot Output
+
+Depending on the agreed scope, delivery may include:
+
+- processed video or image outputs
+- QA findings
+- detected limitations or edge cases
+- metadata or annotation files
+- HTML or PDF evaluation report
 
 ### 5. Decide Whether to Scale
 
-After the pilot, both sides can confirm production volume, schedule, security conditions, and pricing.
+After reviewing the result, both sides can decide whether to proceed with a larger project and confirm volume, schedule, acceptance criteria, security controls, and pricing.
 
 <p align="center">
   <a href="https://origindatalab.io"><strong>Request a Private Sample Evaluation</strong></a>
@@ -223,18 +263,23 @@ After the pilot, both sides can confirm production volume, schedule, security co
 
 ## Security and Data Handling
 
-Security requirements are agreed before each commercial project.
+Security and data-handling requirements are reviewed before each private pilot or commercial project.
 
-Depending on project scope, the workflow can include:
+The project agreement can define:
 
-- project-specific storage and access rules
-- restricted access to customer data
-- agreed retention and deletion schedules
-- no external model training with customer data without written approval
-- NDA or customer-provided security requirements
-- delivery through an agreed secure method
+- approved data-transfer and delivery methods
+- project-specific storage locations
+- personnel authorized to access the data
+- whether human verification is permitted
+- retention and deletion schedules
+- NDA and confidentiality requirements
+- separation of customer project files
+- restrictions on model training or secondary use
+- customer-specific security documentation
 
-This public repository is a demonstration. Formal compliance claims should only be made after the applicable customer requirements, contracts, infrastructure, and procedures have been confirmed.
+Customer data is not used for external model training or unrelated purposes without written approval.
+
+The exact controls depend on the agreed project scope and available infrastructure. This public repository does not claim certifications or regulatory compliance that have not been formally verified.
 
 ---
 
@@ -283,10 +328,10 @@ privacy-processing-demo/
 │   └── thumbnails/
 │       └── demo-thumbnail.jpg
 ├── demo/
-│   └── Origin Data Lab Face Anonymization Demo (V58).mp4
+│   └── origin_data_lab_face_anonymization_demo_v58.mp4
 └── reports/
-    ├── report.html
-    └── technical_report.pdf
+    ├── v58_public_evaluation.html
+    └── v58_technical_report.pdf
 ```
 
 </details>
@@ -295,24 +340,38 @@ privacy-processing-demo/
 
 ## About Origin Data Lab
 
-Origin Data Lab supports privacy processing, human verification, Human GT, dataset quality review, and custom data-production workflows.
+Origin Data Lab provides privacy processing, Human GT, human verification, dataset QA, metadata generation, and custom data-production support for AI and computer-vision projects.
 
-We focus on practical execution: start with a small sample, define the quality rules clearly, communicate directly, and scale only after the customer has reviewed the output.
+We begin with a small, representative sample rather than asking customers to commit immediately to a large project.
+
+The purpose of the pilot is to verify:
+
+- performance on the customer's own data
+- customer-specific processing rules
+- Human GT or human-review requirements
+- security and data-handling conditions
+- expected deliverables, schedule, and cost
+
+Production scaling is discussed only after the customer has reviewed the pilot output.
 
 ---
 
-## Contact
+## Discuss a Private Pilot
 
 **Website:** [https://origindatalab.io](https://origindatalab.io)
 
-For a private pilot, send a short description of:
+To request a private sample evaluation, please include:
 
-- data type and approximate volume
-- target objects to anonymize
+- organization and project type
+- data type and representative sample duration
+- approximate total project volume
+- objects to anonymize, annotate, or verify
 - expected output format
+- required Human GT or verification scope
 - desired schedule
-- security or deletion requirements
+- security, access, retention, or deletion requirements
 
+We will first review technical feasibility and project requirements. Pilot scope, deliverables, schedule, security conditions, and pricing will be confirmed before processing begins.
 ---
 
 <p align="center">
