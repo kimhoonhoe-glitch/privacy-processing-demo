@@ -24,7 +24,9 @@
 </p>
 
 > ### Evaluate Our Workflow on Your Own Data
-> Send a private 1–5 minute representative sample. We will first review technical feasibility, processing requirements, Human GT or verification scope, security conditions, expected deliverables, schedule, and pilot terms before any larger commitment.
+> Send us a representative 1–5 minute sample from your own project.
+>
+> We evaluate the footage under your project requirements and explain the expected processing scope, Human Verification requirements, deliverables, and pilot options before any larger commitment.
 >
 > **[Request a Private Sample Evaluation](https://origindatalab.io/contact)** · **[Visit Origin Data Lab](https://origindatalab.io)**
 ---
@@ -148,6 +150,13 @@ These values describe this specific public evaluation and should not be interpre
 
 ## Why Companies Start with Origin Data Lab
 
+| Large AI/BPO Vendors | Origin Data Lab |
+|----------------------|-----------------|
+| Standardized workflows | Project-specific workflows |
+| AI-only processing | AI + Human Verification (where agreed) |
+| Multiple communication layers | Direct communication with the project team |
+| Large-scale engagement first | Representative sample evaluation first |
+
 ### Evaluate Quality on Your Own Data
 
 We do not assume that one public benchmark represents every camera, country, lighting condition, or operational environment. A private sample evaluation allows customers to assess the result using their own footage before considering a larger project.
@@ -246,7 +255,7 @@ Depending on the agreed scope, delivery may include:
 After reviewing the result, both sides can decide whether to proceed with a larger project and confirm volume, schedule, acceptance criteria, security controls, and pricing.
 
 <p align="center">
-  <a href="https://origindatalab.io"><strong>Request a Private Sample Evaluation</strong></a>
+ <a href="https://origindatalab.io/contact"><strong>Request a Private Sample Evaluation</strong></a>
 </p>
 
 ---
@@ -278,7 +287,7 @@ The project agreement can define:
 - restrictions on model training or secondary use
 - customer-specific security documentation
 
-Customer data is not used for external model training or unrelated purposes without written approval.
+Project-specific security procedures are defined before processing begins, including data handling, access permissions, retention, delivery, and deletion requirements where applicable.
 
 The exact controls depend on the agreed project scope and available infrastructure. This public repository does not claim certifications or regulatory compliance that have not been formally verified.
 
