@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/origindatalab-logo.png" alt="Origin Data Lab" width="250">
+  <img src="assets/logo/origindatalab-logo.png" alt="Origin Data Lab" width="250">
 </p>
 
 <h1 align="center">Privacy Processing & Human Verification</h1>
@@ -18,9 +18,9 @@
 <p align="center">
   <a href="https://origindatalab.io"><strong>Visit Website</strong></a>
   ·
-  <a href="demo/Origin%20Data%20Lab%20Face%20Anonymization%20Demo%20(V58).mp4"><strong>Watch Demo</strong></a>
+  <a href="demo/Origin%20Data%20Lab%20Face%20Anonymization%20Demo%20(V58).mp4?raw=1"><strong>Watch Demo</strong></a>
   ·
-  <a href="reports/technical_report.pdf"><strong>View Technical Report</strong></a>
+  <a href="reports/technical_report.pdf?raw=1"><strong>View Technical Report</strong></a>
 </p>
 
 > **Start with a private 1–5 minute sample evaluation before scaling to production.**
@@ -76,13 +76,13 @@ This repository presents a public V58 evaluation using dense, low-light urban tr
 ## Demo Video
 
 <p align="center">
-  <a href="demo/Origin%20Data%20Lab%20Face%20Anonymization%20Demo%20(V58).mp4">
+  <a href="demo/Origin%20Data%20Lab%20Face%20Anonymization%20Demo%20(V58).mp4?raw=1">
     <img src="assets/thumbnails/demo-thumbnail.jpg" alt="Watch Origin Data Lab V58 face anonymization demo" width="85%">
   </a>
 </p>
 
 <p align="center">
-  <a href="demo/Origin%20Data%20Lab%20Face%20Anonymization%20Demo%20(V58).mp4"><strong>▶ Watch the public V58 demonstration</strong></a>
+  <a href="demo/Origin%20Data%20Lab%20Face%20Anonymization%20Demo%20(V58).mp4?raw=1"><strong>▶ Watch the public V58 demonstration</strong></a>
 </p>
 
 The demo includes:
@@ -257,9 +257,9 @@ Automation alone may not fully resolve every situation. Human verification can b
 
 ## Reports and Files
 
-- [HTML Evaluation Report](reports/report.html)
-- [Technical Evaluation Report — PDF](reports/technical_report.pdf)
-- [Public V58 Demo Video](demo/Origin%20Data%20Lab%20Face%20Anonymization%20Demo%20(V58).mp4)
+- [HTML Evaluation Report](reports/report.html?raw=1)
+- [Technical Evaluation Report — PDF](reports/technical_report.pdf?raw=1)
+- [Public V58 Demo Video](demo/Origin%20Data%20Lab%20Face%20Anonymization%20Demo%20(V58).mp4?raw=1)
 
 <details>
 <summary><strong>Repository structure</strong></summary>
@@ -269,7 +269,8 @@ privacy-processing-demo/
 ├── README.md
 ├── LICENSE
 ├── assets/
-│   ├── origindatalab-logo.png
+│   ├── logo/
+│   │   └── origindatalab-logo.png
 │   ├── charts/
 │   │   ├── confidence_chart.png
 │   │   └── detection_chart.png
